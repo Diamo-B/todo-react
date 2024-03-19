@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root{
+    height: 100%;
+}
+
+.text-syne {
+  font-family: "Syne Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
